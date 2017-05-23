@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 mkdir /mnt/windows
 ntfs-3g /dev/sda2 /mnt/windows
 rm -rf /mnt/windows/Program\ Files/Windows\ Defender
